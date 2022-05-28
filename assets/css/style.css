@@ -1,0 +1,178 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+}
+
+hr:not([size]){
+    height:2px;
+    color:#000;
+    background-color:#000;
+}
+
+footer{
+    background-color: #373A3C;
+    padding: 1rem 0;
+}
+
+footer p{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+
+.menu{
+    background-color: #373A3C;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+}
+
+.titulo-header{
+    width: 20rem;
+    margin-top: 30px;
+}
+
+.porciones{
+    font-size: 20px;
+    margin: 20px 0 ;
+}
+
+.carousel-indicators{
+    bottom:-60px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.ingredientes ul, .ingredientes p, .preparacion ol, .preparacion p{
+    padding:0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ingredientes h3, .preparacion h3{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-size: 20px;
+    letter-spacing: 0.6pt;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.ingredientes ul li{
+    list-style: none;
+}
+
+.preparacion ol li{
+    margin-bottom: 1em;
+}
+
+.recetas h2{
+    font-size: 40px;
+}
+
+.card-title{
+    font-size: 23px;
+}
+
+.card-text{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.newsletter{
+    background-color: #DC3545;
+    padding: 10rem 0;
+    color: #fff;
+}
+
+.newsletter h2{
+    font-size: 40px;
+}
+
+.newsletter p{
+    font-size: 30px;
+}
+
+.newsletter span{
+    font-family: 'Lobster', cursive;
+}
+
+.newsletter button{
+    color: #fff;
+    border-color: #DDDDDD;
+    padding: 10px 90px;
+}
+
+.newsletter button:hover{
+    color: #DC3545;
+    background-color: #fff;
+    border-color: #DDDDDD;
+    transition: all .3s;
+}
+
+@media (max-width: 575.98px) { 
+
+    .menu .container, .menu .row, .navbar .container-fluid{
+        padding: 0;
+    }
+
+    .navbar-toggler{
+       margin: 0;
+    }
+
+    .pd-responsive{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .info-header{
+        text-align: center;
+    }
+
+    button{
+        margin: auto;
+    }
+
+    .ingredientes h3, .preparacion h3{
+        text-decoration: none;
+    }
+
+    .ingredientes ul, .ingredientes p, .preparacion ol, .preparacion p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .recetas h2, .newsletter h2{
+        font-size: 30px;
+    }
+
+    .newsletter p{
+        font-size: 20px;
+    }
+
+    .card{
+        margin-bottom: 2em;
+    }
+ }
+
